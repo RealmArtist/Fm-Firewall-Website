@@ -6,7 +6,7 @@
 body {
 
     margin: 0;
-    
+    background-color: #0C4489;
 
 
 }
@@ -107,16 +107,98 @@ width: 100%;
 
 display:flex;
 
-justify-content: space-around;
+justify-content:space-around;
 width: 80%;
-color: rgb(124, 25, 54);
+color: whitesmoke;
 font-family: 'Rem';
+text-align: center;
 
 }
 
-.Name-Container {
 
-display:flex 
+.Krish {width: 26%;text-align: center;}
+.Abhinav {width: 26%;text-align: center;} 
+.Mutasim {width: 26%;text-align: center;}
+
+.Team-Two-Container {
 
 
-}
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+    }
+    
+    .Team-Two {
+    
+    
+    display:flex;
+    
+    justify-content:space-around;
+    width: 80%;
+    color: whitesmoke;
+    font-family: 'Rem';
+    
+    }
+
+.Nihal{width: 26%;text-align: center;}
+.Ekansh{width: 26%;text-align: center;}
+.Reethum{width: 26%;text-align: center;}
+
+
+    .Team-Three-Container {
+
+
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        
+        }
+        
+        .Team-Three   {
+        
+        
+        display:flex;
+        
+        justify-content:space-around;
+        width: 80%;
+        color: whitesmoke;
+        font-family: 'Rem';
+        
+        }
+
+.Rishi {width: 26%;text-align: center;}
+.Matthew {width: 26%;text-align: center;}
+.Adhitya{width: 26%;text-align: center;}
+
+
+
+
+        .Team-Four-Container {
+
+
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            
+            }
+            
+            .Team-Four  {
+            
+            
+            display:flex;
+           
+            justify-content:space-around;
+            width: 80%;
+            color: whitesmoke;
+            font-family: 'Rem';
+            
+            }
+            
+.Rijoy {width: 26%; text-align: center;}
+.Vrajesh {width: 26%;text-align: center;}
+.Sundar {width: 26%;text-align: center;}
+
+        
+    
+
