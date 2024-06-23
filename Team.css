@@ -27,6 +27,7 @@ width: 100%;
 
     width:100%;
     height: 81.625px;
+    display: flex;
 
 }
 
@@ -81,22 +82,41 @@ margin-top: 9.69px;
 
 .TeamHeader {
 
-
+display:flex;
+justify-content: center;
 color: whitesmoke;
 font-family: 'Rem' ;
+margin-top: 50px;
 
 
 }
 
+
+
+.Team-One-Container {
+
+
+display: flex;
+justify-content: space-around;
+width: 100%;
+
+}
 
 .Team-One   {
 
 
 display:flex;
-justify-content: space-between;
+
+justify-content: space-around;
 width: 80%;
-color: rgb(93, 35, 180);
+color: rgb(124, 25, 54);
 font-family: 'Rem';
 
 }
 
+.Name-Container {
+
+display:flex 
+
+
+}
