@@ -6,7 +6,7 @@
 body {
 
     margin: 0;
-    background-color: #0C4489;
+    background-color: #236bc2;
 
 
 }
@@ -87,6 +87,7 @@ justify-content: center;
 color: whitesmoke;
 font-family: 'Rem' ;
 margin-top: 50px;
+margin-bottom: 50px;
 
 
 }
