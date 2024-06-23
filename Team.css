@@ -47,7 +47,7 @@ ul {
 
 
 a {
-
+    transition-duration: 1.5s;
     text-decoration: none;
     color: whitesmoke;
 }
@@ -214,3 +214,10 @@ border-radius: 10%;
 }
 
 
+a:hover {
+
+    transition-duration: 2s;
+    background-color: #236bc2;
+    border-radius: 10%;
+    
+}

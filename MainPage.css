@@ -46,6 +46,7 @@ ul {
 
     display:inline;
     color: whitesmoke;
+    
 }
 
 
@@ -53,6 +54,7 @@ a {
 
     text-decoration: none;
     color: whitesmoke;
+    transition-duration: 1.5s;
 }
 
 
@@ -146,6 +148,14 @@ padding-bottom: 20px;
     
 }
 
+
+a:hover {
+
+    transition-duration: 2s;
+    background-color: #236bc2;
+    border-radius: 10%;
+    
+}
 
 
 

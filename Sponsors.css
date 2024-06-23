@@ -46,7 +46,7 @@ ul {
 
 
 a {
-
+    transition-duration: 1.5s;
     text-decoration: none;
     color: whitesmoke;
 }
@@ -76,4 +76,12 @@ margin-top: 9.69px;
   
 
 
+}
+
+a:hover {
+
+    transition-duration: 2s;
+    background-color: #236bc2;
+    border-radius: 10%;
+    
 }
