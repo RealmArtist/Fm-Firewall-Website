@@ -7,6 +7,8 @@ body {
 
     margin: 0;
     background-color: #236bc2;
+    font-size: calc(1vw)
+
 
 
 }
@@ -109,17 +111,18 @@ width: 100%;
 display:flex;
 
 justify-content:space-around;
-width: 80%;
+width: 90%;
 color: whitesmoke;
 font-family: 'Rem';
 text-align: center;
+margin-bottom: 20px;
 
 }
 
 
-.Krish {width: 26%;text-align: center;}
-.Abhinav {width: 26%;text-align: center;} 
-.Mutasim {width: 26%;text-align: center;}
+.Krish {width: 20%;text-align: center;margin-left: 10px;margin-top: 15%;}
+.Abhinav {width: 20%;text-align: center;margin-left: 10px;margin-top: 15%;} 
+.Mutasim {width: 20%;text-align: center;margin-left: 10px;margin-top: 15%;}
 
 .Team-Two-Container {
 
@@ -136,15 +139,16 @@ text-align: center;
     display:flex;
     
     justify-content:space-around;
-    width: 80%;
+    width: 90%;
     color: whitesmoke;
     font-family: 'Rem';
+    margin-bottom: 20px;
     
     }
 
-.Nihal{width: 26%;text-align: center;}
-.Ekansh{width: 26%;text-align: center;}
-.Reethum{width: 26%;text-align: center;}
+.Nihal{width: 26%;text-align: center;margin-left: 10px;margin-top: 15%;}
+.Ekansh{width: 26%;text-align: center;margin-left: 10px;margin-top: 15%;}
+.Reethum{width: 26%;text-align: center;margin-left: 10px;margin-top: 15%;}
 
 
     .Team-Three-Container {
@@ -162,15 +166,16 @@ text-align: center;
         display:flex;
         
         justify-content:space-around;
-        width: 80%;
+        width: 90%;
         color: whitesmoke;
         font-family: 'Rem';
+        margin-bottom: 20px;
         
         }
 
-.Rishi {width: 26%;text-align: center;}
-.Matthew {width: 26%;text-align: center;}
-.Adhitya{width: 26%;text-align: center;}
+.Rishi {width: 26%;text-align: center;margin-left: 10px;margin-top: 15%;}
+.Matthew {width: 26%;text-align: center;margin-left: 10px;margin-top: 15%;}
+.Adhitya{width: 26%;text-align: center;margin-left:10px;margin-top: 15%;}
 
 
 
@@ -190,26 +195,36 @@ text-align: center;
             display:flex;
            
             justify-content:space-around;
-            width: 80%;
+            width: 90%;
             color: whitesmoke;
             font-family: 'Rem';
+            margin-bottom: 20px;
             
             }
             
-.Rijoy {width: 26%; text-align: center;}
-.Vrajesh {width: 26%;text-align: center;}
-.Sundar {width: 26%;text-align: center;}
+.Rijoy {width: 26%; text-align:center; margin-left: 10px;margin-top: 15%;}
+.Vrajesh {width: 26%;text-align: center;margin-left: 10px;margin-top: 15%;}
+.Sundar {width: 26%;text-align: center;margin-left: 10px;margin-top: 15%;}
+
+
+.generic-background-alt {
+display:flex; 
+justify-content: space-between;
+background-color: rgb(60, 134, 238);
+border-radius: 10%;
+width: 31%;
+opacity: 0;
+}
 
 .Defualt-Image {
 
 
 height: 200px;
-width: 10%;
-margin-bottom: 10px;
-margin-top: 10px;
+width: 40%;
+
 border-radius: 10%;
-
-
+margin-left: 10px;
+object-fit:cover;
 
 }
 
@@ -220,4 +235,18 @@ a:hover {
     background-color: #236bc2;
     border-radius: 10%;
     
+}
+
+.generic-background 
+
+{
+
+display:flex; 
+justify-content: space-between;
+background-color: rgb(60, 134, 238);
+border-radius: 10%;
+width: 31%;
+
+
+
 }
