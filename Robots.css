@@ -68,13 +68,100 @@ a:hover {
 }
 
 .Robot-Header {
+  display: flex;
+  margin-top: 10%;
+  font-size: 3rem;
+  font-family: "Rem";
+  color: white;
+  justify-content: center;
+  margin-bottom: 1%;
+}
 
-display: flex;
-margin-top: 10%;
-font-size: 2rem;
-font-family: 'Rem';
-color: white;
+.Robot-Photo-Container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  
+}
+
+.Robot-Photo {
+  width: 30%;
+  border: #050e18;
+  border-width: 9px;
+  border-style: solid;
+  display: flex;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  border-radius: 10px;
+}
+
+.Main-Container {
+
+
+width: 100%;
+display:flex;
+
 justify-content: center;
 
+
+}
+
+.Main-Container-Holder {
+
+display: flex;
+width: 90%;
+justify-content: space-between;
+
+}
+
+.Robot-Para1-Container {
+  display: flex;
+  width: 45%;
+  
+}
+
+.Robot-Para1-Holder {
+  
+  background-color: #0c4489;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  border: #050e18;
+  border-width: 9px;
+  border-style: solid;
+}
+
+.Robot-Para1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: rem;
+  color: white;
+  font-size: 1.5rem;
+  width: 90%;
+  height: 100%;
+}
+
+.Accomplishments-Container {
+
+
+display: flex;
+width: 45%;
+border: black;
+border-width: 7.5px;
+border-style: solid;
+border-radius: 10px;
+
+
+
+}
+
+.Season {
+
+margin-left: 3%;
+width: 95%;
+font-family: 'Rem';
+color: white;
+padding: 0;
+font-size: .rem;
 
 }
