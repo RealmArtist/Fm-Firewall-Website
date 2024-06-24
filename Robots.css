@@ -74,7 +74,7 @@ a:hover {
   font-family: "Rem";
   color: white;
   justify-content: center;
-  margin-bottom: 1%;
+  margin-bottom: 2%;
 }
 
 .Robot-Photo-Container {
@@ -84,6 +84,18 @@ a:hover {
   
 }
 
+.Robot-Photo-Holder 
+
+{
+
+display: flex;
+width: 90%;
+justify-content: center;
+justify-content: space-between;
+
+
+}
+
 .Robot-Photo {
   width: 30%;
   border: #050e18;
@@ -91,7 +103,7 @@ a:hover {
   border-style: solid;
   display: flex;
   margin-top: 1%;
-  margin-bottom: 2%;
+  margin-bottom: 3%;
   border-radius: 10px;
 }
 
@@ -107,11 +119,9 @@ justify-content: center;
 }
 
 .Main-Container-Holder {
-
 display: flex;
 width: 90%;
 justify-content: space-between;
-
 }
 
 .Robot-Para1-Container {
@@ -156,12 +166,12 @@ border-radius: 10px;
 }
 
 .Season {
-
+margin-top: 0;
 margin-left: 3%;
 width: 95%;
 font-family: 'Rem';
 color: white;
 padding: 0;
-font-size: .rem;
+font-size: .8rem;
 
 }
