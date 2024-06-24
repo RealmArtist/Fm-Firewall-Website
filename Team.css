@@ -62,15 +62,12 @@ a {
 }
 
 .TeamHeader {
-
-display:flex;
-justify-content: center;
-color: whitesmoke;
-font-family: 'Rem' ;
-margin-top:10%;
-color: #0C4489;
-
-
+  display: flex;
+  justify-content: center;
+  color: whitesmoke;
+  font-family: "Rem";
+  margin-top: 10%;
+  color: #0c4489;
 }
 
 .Team-Photo-Container {
@@ -85,14 +82,12 @@ color: #0C4489;
 .Team-Photo {
   display: flex;
 
-    display: flex;
-    
-    object-fit: cover;
-    width: 83%;
-    border-radius: 10%;
-    height: 230px;
+  display: flex;
 
-
+  object-fit: cover;
+  width: 83%;
+  border-radius: 20px;
+  height: 300px;
 }
 
 .Team-One-Container {
@@ -108,7 +103,6 @@ color: #0C4489;
   width: 85%;
   color: whitesmoke;
   font-family: "Rem";
-
   margin-bottom: 20px;
 }
 
@@ -249,7 +243,7 @@ color: #0C4489;
   height: 100%;
   width: 40%;
 
-  border-radius: 10%;
+  border-radius: 0px 20px 20px 0px;
   margin-left: 10px;
   object-fit: cover;
 }
@@ -257,17 +251,18 @@ color: #0C4489;
 a:hover {
   transition-duration: 2s;
   background-color: #236bc2;
-  border-radius: 10%;
+  border-radius: 10px;
 }
 
 .generic-background {
   display: flex;
   justify-content: space-between;
   background-color: #0c4489;
-  border-radius: 10%;
+  border-radius: 20px;
   width: 31%;
   transition-duration: 1.5s;
-}
+  }
+  
 
 .generic-background:hover {
   transition-duration: 2s;
