@@ -35,7 +35,7 @@ body {
     .MainHeaderBackground {
     
         width:100%;
-        height: 81.625px;
+        height:100%;
         display: flex;
     
     }

@@ -6,7 +6,7 @@
 body {
 
     margin: 0;
-    background-color: #236bc2;
+    background-color: #ddd5d5;
     font-size: calc(1vw)
 
 
@@ -35,7 +35,7 @@ body {
     .MainHeaderBackground {
     
         width:100%;
-        height: 81.625px;
+        height:100%;
         display: flex;
     
     }
@@ -101,8 +101,35 @@ display:flex;
 justify-content: center;
 color: whitesmoke;
 font-family: 'Rem' ;
-margin-top: 50px;
-margin-bottom: 50px;
+margin-top:10%;
+
+
+
+}
+
+
+
+.Team-Photo-Container {
+
+    display: flex;
+    width: 100%;
+    height: 10%;
+    margin-bottom: 4%;
+    justify-content: center;
+    margin-top: 3%;
+
+
+}
+
+
+
+.Team-Photo {
+
+    display: flex;
+    height: 50%;
+    object-fit: cover;
+    width: 83.5%;
+    border-radius: 10%;
 
 
 }
@@ -124,7 +151,7 @@ width: 100%;
 display:flex;
 
 justify-content:space-around;
-width: 90%;
+width:  85%;
 color: whitesmoke;
 font-family: 'Rem';
 
@@ -152,7 +179,7 @@ margin-bottom: 20px;
     display:flex;
     
     justify-content:space-around;
-    width: 90%;
+    width: 85%;
     color: whitesmoke;
     font-family: 'Rem';
     margin-bottom: 20px;
@@ -179,7 +206,7 @@ margin-bottom: 20px;
         display:flex;
         
         justify-content:space-around;
-        width: 90%;
+        width: 85%;
         color: whitesmoke;
         font-family: 'Rem';
         margin-bottom: 20px;
@@ -208,7 +235,7 @@ margin-bottom: 20px;
             display:flex;
            
             justify-content:space-around;
-            width: 90%;
+            width: 85%;
             color: whitesmoke;
             font-family: 'Rem';
             margin-bottom: 20px;
@@ -256,11 +283,20 @@ a:hover {
 
 display:flex; 
 justify-content: space-between;
-background-color: rgb(60, 134, 238);
+background-color: #0C4489;
 border-radius: 10%;
 width: 31%;
+transition-duration: 1.5s;
 
 
+
+}
+
+.generic-background:hover {
+
+    transition-duration: 2s;
+    background-color: #236bc2;
+    
 
 }
 
