@@ -28,6 +28,7 @@ body {
     position: fixed;
     width: 100%;
     font-size: calc(1vw);
+    align-items: center;
     
     
     
@@ -68,14 +69,16 @@ body {
     
     height: 60px;
     width: 60px;
-    margin-top: 9.69px;
+    align-items: center;
+    
     }
     
     .Name {
     
-        margin-top: 20.19px;
+        align-items: center;
         color: whitesmoke;
         font-family: 'REM';
+        
     }
     
     
@@ -84,7 +87,8 @@ body {
     
         display:flex;
         justify-content: flex-start;
-        
+        align-items: center;
+        margin-left: .5%;
       
     
     
@@ -97,6 +101,7 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    
 
 }
 
