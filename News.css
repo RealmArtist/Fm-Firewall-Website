@@ -1,100 +1,68 @@
 /* Import Fonts and Initialize */
-@import url('https://fonts.googleapis.com/css2?family=REM&display=swap%27');
-@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@500&family=Open+Sans:wght@800&family=Roboto:wght@300;500;700;900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=REM&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@500&family=Open+Sans:wght@800&family=Roboto:wght@300;500;700;900&display=swap");
 
 body {
-
-    margin: 0;
-    background-color: #236bc2;
-    font-size: calc(1vw)
-
-
-
+  margin: 0;
+  background-color: #236bc2;
+  font-size: calc(1vw);
 }
 
-
-
-
 .MainHeader {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0c4489;
+  font-family: "REM";
+  position: fixed;
+  width: 100%;
+  font-size: calc(1vw);
+  align-items: center;
+}
 
-    display:flex;
-    justify-content: space-between;
-    background-color: #0C4489;
-    font-family: 'REM';
-    position: fixed;
-    width: 100%;
-    font-size: calc(1vw);
-    align-items:center;
-    
-    
-    
-    
-    }
-    
-    .MainHeaderBackground {
-    
-        width:100%;
-        height:100%;
-        display: flex;
-    
-    }
-    
-    ol {
-    
-        margin-right: 10px;
-        align-items: center;
-        
-        
-    
-    }
-    
-    ul {
-    
-        display:inline;
-        color: whitesmoke;
-        
-    }
-    
-    
-    a {
-        transition-duration: 1.5s;
-        text-decoration: none;
-        color: whitesmoke;
-    }
-    
-    
-    .Logo {
-    
-    
-    height: 60px;
-    width: 60px;
-    align-items: center;
-    margin-top: 10px
-    
-    }
-    
-    .Name {
-    
-        align-items: center;
-        color: whitesmoke;
-        font-family: 'REM';
-        
-    }
-    
-    
-    
-    .LogoTitle {
-    
-        display:flex;
-        justify-content: flex-start;
-        align-items: center;
-        margin-left: .5%;}
+.MainHeaderBackground {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+ol {
+  margin-right: 10px;
+  align-items: center;
+}
+
+ul {
+  display: inline;
+  color: whitesmoke;
+}
+
+a {
+  transition-duration: 1.5s;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.Logo {
+  height: 60px;
+  width: 60px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.Name {
+  align-items: center;
+  color: whitesmoke;
+  font-family: "REM";
+}
+
+.LogoTitle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 0.5%;
+}
 
 a:hover {
-
-    transition-duration: 2s;
-    background-color: #236bc2;
-    border-radius: 10%;
-    
+  transition-duration: 2s;
+  background-color: #236bc2;
+  border-radius: 10%;
 }
