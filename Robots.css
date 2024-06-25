@@ -81,19 +81,13 @@ a:hover {
   display: flex;
   width: 100%;
   justify-content: space-around;
-  
 }
 
-.Robot-Photo-Holder 
-
-{
-
-display: flex;
-width: 90%;
-justify-content: center;
-justify-content: space-between;
-
-
+.Robot-Photo-Holder {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  justify-content: space-between;
 }
 
 .Robot-Photo {
@@ -109,30 +103,24 @@ justify-content: space-between;
 }
 
 .Main-Container {
+  width: 100%;
+  display: flex;
 
-
-width: 100%;
-display:flex;
-
-justify-content: center;
-
-
+  justify-content: center;
 }
 
 .Main-Container-Holder {
-display: flex;
-width: 90%;
-justify-content: space-between;
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
 }
 
 .Robot-Para1-Container {
   display: flex;
   width: 45%;
-  
 }
 
 .Robot-Para1-Holder {
-  
   background-color: #0c4489;
   display: flex;
   justify-content: center;
@@ -153,41 +141,29 @@ justify-content: space-between;
 }
 
 .Accomplishments-Container {
-
-
-display: flex;
-width: 45%;
-border: black;
-border-width: 9px;
-border-style: solid;
-border-radius: 10px;
-background-color: #0c4489;
-
-
-
+  display: flex;
+  width: 45%;
+  border: black;
+  border-width: 9px;
+  border-style: solid;
+  border-radius: 10px;
+  background-color: #0c4489;
 }
 
 .Accomplishment-Header {
-
-margin-top: 0;
-
+  margin-top: 0;
 }
 
 .Season {
-margin-top: 0;
-margin-left: 3%;
-width: 95%;
-font-family: 'Rem';
-color: white;
-padding: 0;
-font-size: .8rem;
-
+  margin-top: 0;
+  margin-left: 3%;
+  width: 95%;
+  font-family: "Rem";
+  color: white;
+  padding: 0;
+  font-size: 0.8rem;
 }
 
 .yap {
-
-
-font-size: 1.2rem;
-
-
+  font-size: 1.2rem;
 }
