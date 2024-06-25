@@ -157,9 +157,10 @@ justify-content: space-between;
 display: flex;
 width: 45%;
 border: black;
-border-width: 7.5px;
+border-width: 9px;
 border-style: solid;
 border-radius: 10px;
+background-color: #0c4489;
 
 
 
