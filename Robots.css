@@ -105,6 +105,7 @@ justify-content: space-between;
   margin-top: 1%;
   margin-bottom: 3%;
   border-radius: 10px;
+  object-fit: contain;
 }
 
 .Main-Container {
