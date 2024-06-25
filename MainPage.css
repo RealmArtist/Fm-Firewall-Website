@@ -7,7 +7,7 @@ body {
 
   width: 100%;
   height: 100%;
-  background-color: #0c4489;
+  background-color: #cdd1d7;
 
   font-size: calc(1vw);
 }
@@ -79,9 +79,9 @@ a {
 .Our-Mission {
   display: flex;
   justify-content: center;
-  background-color: #0c4489;
+  background-color: #cdd1d7;
   font-family: "REM";
-  color: whitesmoke;
+  color: #0c4489;
   margin: 0;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -90,7 +90,7 @@ a {
 .Our-Mission-Container {
   color: whitesmoke;
   font-size: 30px;
-  background-color: #0c4489;
+  background-color: #cdd1d7;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -110,11 +110,27 @@ a {
   width: 60%;
   font-family: "Rem";
   font-size: calc(1vw + 1vh);
+  background-color: #0c4489;
+  border-radius: 15px;
+  border: black;
+  border-style: solid;
+  border-width:7.5px;
+  display: flex;
+  justify-content: center;
+}
+
+.Our-Mission-Holder {
+
+  
+  margin-top: 2%;
+  width: 90%;
+
 }
 
 .our-mission-pic {
   width: 35%;
   object-fit: contain;
+  margin-left: 8%;
 }
 
 a:hover {
