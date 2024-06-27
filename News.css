@@ -68,29 +68,38 @@ a:hover {
 }
 
 .News-Header {
-  margin-top: 10%;
-  display: flex;
-  justify-content: center;
-  color: #0c4489;
-  font-size: 3rem;
-  font-family: "Rem";
-  margin-bottom: 4%;
+
+margin-top: 10%;
+display: flex;
+justify-content: center;
+color: #0c4489;
+font-size: 3rem;
+font-family: 'Rem';
+margin-bottom: 4%;
+
 }
 
+
 .News-Container {
-  display: flex;
-  width: 100%;
-  justify-content: center;
+
+display: flex;
+width: 100%;
+justify-content: center;
+
 }
 
 .News-Row1 {
-  display: flex;
-  justify-content: space-around;
-  width: 90%;
+display: flex;
+justify-content: space-around;
+width:90%;
+
+
 }
 
 .News-1-Style {
-  display: flex;
+
+
+  display:flex;
   background-color: #0c4489;
   border: black;
   border-width: 5px;
@@ -99,30 +108,46 @@ a:hover {
   width: 30%;
   height: 100%;
   transition-duration: 1.5s;
+
+
+
 }
 
 .News-1-Style:hover {
-  transition-duration: 2s;
-  background-color: #236bc2;
+
+transition-duration: 2s;
+background-color: #236bc2;
+
 }
+
+
 
 .News-Content-Holder {
-  display: flex;
-  flex-direction: column;
+
+display: flex;
+flex-direction: column;
+
 }
 
+
 .News-Image {
+
   object-fit: contain;
   width: 100%;
   border-radius: 50px 50px 0px 0px;
   border-bottom: 5px solid black;
+  
 }
 
 .News-Headers {
-  color: white;
-  font-family: "Rem";
-  margin-left: 4%;
-  display: flex;
-  justify-content: start;
-  margin-right: 3%;
+
+color: white;
+font-family: 'Rem';
+margin-left:4%;
+display: flex;
+justify-content: start;
+margin-right: 3%;
+
+
 }
+
