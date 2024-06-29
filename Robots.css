@@ -167,3 +167,48 @@ a:hover {
 .yap {
   font-size: 1.2rem;
 }
+
+.footer-holder {
+
+  width: 100%;
+  background-color: #0c4489;
+  display: flex;
+  margin-top: 10px;
+  height: 150px;
+  justify-content: center;
+  
+  }
+  
+  .Footer-Header {
+  
+  margin-bottom: 0;
+  
+  }
+  
+  .footer {
+  font-family: 'Rem';
+  color: white;
+  justify-content: start;
+  width: 90%;
+  background-color:#0c4489;
+  }
+  
+  
+  .Social-Media {
+  
+  background-color: #0c4489;
+  display: flex;
+  justify-content: start;
+  
+  }
+  
+  .image {
+  
+  margin-right: 10px;
+  border-radius: 10px;
+  height: 60px;
+  width: 60px;
+  margin-top: 9.69px;
+  
+  
+  }
