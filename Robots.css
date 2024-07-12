@@ -13,7 +13,7 @@ body {
   justify-content: space-between;
   background-color: #0c4489;
   font-family: "REM";
-  position: fixed;
+  
   width: 100%;
   font-size: calc(1vw);
   align-items: center;
@@ -69,7 +69,7 @@ a:hover {
 
 .Robot-Header {
   display: flex;
-  margin-top: 10%;
+  margin-top: 5%;
   font-size: 3rem;
   font-family: "Rem";
   color: #0c4489;
