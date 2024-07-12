@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  background-color: #236bc2;
+  background-color:#cdd1d7;
   font-size: calc(1vw);
 }
 
@@ -13,7 +13,7 @@ body {
   justify-content: space-between;
   background-color: #0c4489;
   font-family: "REM";
-  position: fixed;
+  
   width: 100%;
   font-size: calc(1vw);
   align-items: center;
@@ -66,3 +66,48 @@ a:hover {
   background-color: #236bc2;
   border-radius: 10%;
 }
+
+.footer-holder {
+
+  width: 100%;
+  background-color: #0c4489;
+  display: flex;
+  margin-top: 10px;
+  height: 150px;
+  justify-content: center;
+  
+  }
+  
+  .Footer-Header {
+  
+  margin-bottom: 0;
+  
+  }
+  
+  .footer {
+  font-family: 'Rem';
+  color: white;
+  justify-content: start;
+  width: 90%;
+  background-color:#0c4489;
+  }
+  
+  
+  .Social-Media {
+  
+  background-color: #0c4489;
+  display: flex;
+  justify-content: start;
+  
+  }
+  
+  .image {
+  
+  margin-right: 10px;
+  border-radius: 10px;
+  height: 60px;
+  width: 60px;
+  margin-top: 9.69px;
+  
+  
+  }
