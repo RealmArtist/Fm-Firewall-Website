@@ -113,6 +113,7 @@ a:hover {
   display: flex;
   width: 90%;
   justify-content: space-between;
+  margin-bottom: 2%;
 }
 
 .Robot-Para1-Container {
