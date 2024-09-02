@@ -7,7 +7,14 @@ body {
   background-color: #cdd1d7;
   font-size: calc(1vw);
 }
+.pageContent {
+  padding-bottom: 11rem;
+}
 
+.fullPage {
+  position: relative;
+  min-height: 100vh;
+}
 .MainHeader {
   display: flex;
   justify-content: space-between;
@@ -183,22 +190,24 @@ a {
   }
   
   .Footer-Header {
-  
+    margin-left: 2%;
   margin-bottom: 0;
   
   }
   
   .footer {
   font-family: 'Rem';
+  position: absolute;
   color: white;
   justify-content: start;
-  width: 90%;
-  background-color:#0c4489;
+  width: 100%;
+  height: 11rem;
+  background-color:#0c4489; 
   }
   
   
   .Social-Media {
-  
+  margin-left: 2%;
   background-color: #0c4489;
   display: flex;
   justify-content: start;
@@ -206,7 +215,6 @@ a {
   }
   
   .image {
-  
   margin-right: 10px;
   border-radius: 10px;
   height: 60px;
