@@ -136,11 +136,7 @@ a {
   margin-left: 8%;
 }
 
-a:hover {
-  transition-duration: 2s;
-  background-color: #236bc2;
-  border-radius: 10%;
-}
+
 
 
 .footer-holder {
