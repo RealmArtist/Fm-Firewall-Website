@@ -251,6 +251,29 @@ a {
   margin-top: 10%;
 }
 
+.Team-Five-Container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.Team-Five {
+  display: flex;
+
+  justify-content: space-around;
+  width: 85%;
+  color: whitesmoke;
+  font-family: "Rem";
+  margin-bottom: 20px;
+}
+
+.Arshiya {
+  width: 26%;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 10%;
+}
+
 .generic-background-alt {
   display: flex;
   justify-content: space-between;
