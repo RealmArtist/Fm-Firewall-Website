@@ -11,7 +11,14 @@ body {
 
   font-size: calc(1vw);
 }
+.pageContent {
+  padding-bottom: 11rem;
+}
 
+.fullPage {
+  position: relative;
+  min-height: 100vh;
+}
 .MainHeader {
   display: flex;
   justify-content: space-between;
@@ -165,6 +172,7 @@ font-family: 'Rem';
 color: white;
 justify-content: start;
 width: 90%;
+height: 11rem;
 background-color:#0c4489;
 
 }
