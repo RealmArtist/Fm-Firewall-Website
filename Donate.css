@@ -93,7 +93,6 @@ a {
   font-family: "Rem";
   margin-top: 5%;
   color: #0c4489;
-  
 }
 
 .DonateLinks{
@@ -105,13 +104,12 @@ a {
   background-color: #0c4489;
   border-color: black;
   border-style: solid;
-  height: 150px;
+  height: 100px;
   width: 80%;
   text-align: center;
   /* vertical-align: bottom; */
-  line-height: 270%;
-  font-size: 50px;
-  font-family: 'Rem';
+  line-height: 70px;
+  font-size: 100px;
 
 
 }
@@ -157,37 +155,6 @@ a {
   display: flex;
   justify-content: start;
   
-  }
-  
-  .Sponsorship-Holder {
-
-    
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-    
-
-  }
-
-  .Sponsorship-2 {
-
-    width: 70%;
-    display: flex;
-    margin-top: 2.5%;
-    border: black;
-    border-style: solid;
-    border-width:10px ;
-    border-radius: 10px;
-    justify-content: center;
-    
-
-  }
-
-  .Sponsorship {
-
-    margin-top: 2%;
-    
-
   }
   
   .image {
