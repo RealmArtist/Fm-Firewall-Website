@@ -7,6 +7,14 @@ body {
   background-color:#cdd1d7;
   font-size: calc(1vw);
 }
+.pageContent {
+  padding-bottom: 11rem;
+}
+
+.fullPage {
+  position: relative;
+  min-height: 100vh;
+}
 
 .MainHeader {
   display: flex;
@@ -15,6 +23,8 @@ body {
   font-family: "REM";
   
   width: 100%;
+  right: 0;
+  left: 0;
   font-size: calc(1vw);
   align-items: center;
 }
@@ -65,11 +75,56 @@ a {
   align-items: center;
   /* margin-left: 0.5%; */
 }
+.centered {
 
+}
+.DonationContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.PlsDonate {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  color: whitesmoke;
+  font-family: "Rem";
+  margin-top: 5%;
+  color: #0c4489;
+}
+
+.DonateLinks{
+  margin-top: 50px;
+  padding-top: 30px;
+  border-radius: 30px;
+  border-width: 9px;
+  transition-duration: 1.5s;
+  background-color: #0c4489;
+  border-color: black;
+  border-style: solid;
+  height: 300px;
+  width: 80%;
+  text-align: center;
+  /* vertical-align: bottom; */
+  line-height: 270%;
+  font-size: 100px;
+
+
+}
+
+
+
+.DonateLinks:hover {
+  transition-duration: 1s;
+  background-color: #116ad6;
+}
 
 
 .footer-holder {
-
+  bottom: 0;
+  position: absolute;
   width: 100%;
   background-color: #0c4489;
   display: flex;
@@ -80,23 +135,22 @@ a {
   }
   
   .Footer-Header {
-  
+    margin-left: 2%;
   margin-bottom: 0;
   
   }
   
   .footer {
+  position: absolute;
   font-family: 'Rem';
   color: white;
   justify-content: start;
-  width: 90%;
-  background-color:#0c4489;
-  
+  width: 100%;
   }
   
   
   .Social-Media {
-  
+  margin-left: 2%;
   background-color: #0c4489;
   display: flex;
   justify-content: start;
