@@ -291,6 +291,14 @@ a {
   margin-left: 10px;
   object-fit: cover;
 }
+.DDefualt-Image {
+  height: 100%;
+  width: 40%;
+
+  border-radius: 0px 20px 20px 0px;
+  margin-left: 10px;
+  object-fit: cover;
+}
 
 /* :hover {
   transition-duration: 1s;
