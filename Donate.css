@@ -104,12 +104,13 @@ a {
   background-color: #0c4489;
   border-color: black;
   border-style: solid;
-  height: 300px;
+  height: 100px;
   width: 80%;
   text-align: center;
   /* vertical-align: bottom; */
-  line-height: 270%;
+  line-height: 70px;
   font-size: 100px;
+  font-family: 'Rem';
 
 
 }
@@ -166,4 +167,10 @@ a {
   margin-top: 9.69px;
   
   
+  }
+
+  .Sponsorship{
+
+    margin-top: 10px;
+
   }
