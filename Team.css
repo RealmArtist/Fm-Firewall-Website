@@ -284,9 +284,9 @@ a {
 }
 
 .Defualt-Image {
-  height: 150px;
+  height: 100%;
   width: 40%;
-
+  background-color: rgb(212, 183, 145);
   border-radius: 0px 20px 20px 0px;
   margin-left: 10px;
   object-fit: cover;
