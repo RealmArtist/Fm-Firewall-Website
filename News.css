@@ -156,6 +156,8 @@ margin-left:4%;
 display: flex;
 justify-content: start;
 margin-right: 3%;
+text-align: center;
+vertical-align: text-bottom;
 
 
 }
