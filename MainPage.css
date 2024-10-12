@@ -193,3 +193,27 @@ margin-top: 9.69px;
 
 
 }
+
+
+.Sponsors-Header
+{
+  display:flex;
+  justify-content: center;
+  color: #0c4489;
+  font-family: 'REM';
+}
+
+.Sponsors-Holder
+{
+  
+  justify-content: center;
+  width: 90%;
+  display: flex;
+}
+
+.ib 
+{
+  margin-top: 3%;
+  width: 40%;
+  margin-left: 10px;
+}
